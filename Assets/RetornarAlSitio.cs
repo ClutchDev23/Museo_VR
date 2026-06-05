@@ -20,7 +20,7 @@ public class RetornarAlSitio : MonoBehaviour
         // Lo teletransporta de vuelta y frena cualquier movimiento
         transform.position = posInicial;
         transform.rotation = rotInicial;
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
     }
 }
